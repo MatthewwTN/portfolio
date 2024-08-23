@@ -6,10 +6,8 @@ export default async function Page() {
   return (
     <section>
       <div>
-        <h1 className="text-2xl font-medium">Contact Me</h1>
-        <p className="text-sm opacity-50">
-          You can contact me at mtnegasi@gmail.com
-        </p>
+        <h1 className="text-2xl font-medium">My Education</h1>
+        <p className="text-sm opacity-50">Seattle Pacific University</p>
       </div>
     </section>
   );

@@ -1,8 +1,8 @@
-import { sleep } from '@/lib/utils'
-import { notFound } from 'next/navigation'
+import { sleep } from "@/lib/utils";
+import { notFound } from "next/navigation";
 
 export default async function Page() {
-  await sleep(1000)
+  await sleep(200);
 
   // TODO: This to test the not-found page
   // const random = Math.random()
@@ -13,11 +13,9 @@ export default async function Page() {
   return (
     <section>
       <div>
-        <h1 className='text-2xl font-medium'>About</h1>
-        <p className='text-sm opacity-50'>
-          Company is a great company that does great things.
-        </p>
+        <h1 className="text-2xl font-medium">About</h1>
+        <p className="text-sm opacity-50">Get to know me a little better</p>
       </div>
     </section>
-  )
+  );
 }
