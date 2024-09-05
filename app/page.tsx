@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import NavLink from "@/components/ui/nav-links";
+
 export default function Home() {
   return (
     <section className="py-24">
@@ -5,11 +8,9 @@ export default function Home() {
         <h1 className="text-4xl font-bold">Matthew Negasi</h1>
         <p className="text-lg opacity-75">Software Engineer @ Clever</p>
 
-        <div className="mt-12">
-          <a href="/about" className="btn">
-            Learn more about me
-          </a>
-        </div>
+        <NavLink href="/about">
+          <Button className="mt-8"> Learn More </Button>
+        </NavLink>
       </div>
     </section>
   );
